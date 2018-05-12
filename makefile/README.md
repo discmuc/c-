@@ -1,4 +1,6 @@
-# shape of a Makefile rule
+# Makefiles
+
+## Structure of a Makefile rule
 
 ```Makefile
 target ... : prerequisite ...
