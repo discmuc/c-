@@ -8,7 +8,11 @@ target ... : prerequisite ...
 	...
 ```
 
-To create the _target_, the _recipe_ commands will be executed. If the _prereqisites_ are newer, the rules for building them are executed first.
+To create the _target_, the _recipe_ commands will be executed. If the
+_prereqisites_ are newer, the rules for building them are executed first.
+Prerequisites and recipies are optional.
 
 * __tab__ character in front of recipe required
 * if you want to use another character, set ``.RECIPEPREFIX``
+* the __\__ connects two lines
+* the __#__ is for comments - everything after is treated as a comment
